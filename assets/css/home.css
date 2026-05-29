@@ -120,12 +120,12 @@
   transform: translateY(-2px);
   box-shadow: var(--shadow-md);
 }
-.layer-card--origin { border-top: 3px solid var(--color-origin); }
-.layer-card--behavior { border-top: 3px solid var(--color-behavior); }
-.layer-card--forecast { border-top: 3px solid var(--color-forecast); }
-.layer-card--origin:hover { border-color: color-mix(in oklab, var(--color-origin) 50%, var(--color-border)); }
-.layer-card--behavior:hover { border-color: color-mix(in oklab, var(--color-behavior) 50%, var(--color-border)); }
-.layer-card--forecast:hover { border-color: color-mix(in oklab, var(--color-forecast) 50%, var(--color-border)); }
+.layer-card--risk { border-top: 3px solid var(--color-risk); }
+.layer-card--detection { border-top: 3px solid var(--color-detection); }
+.layer-card--treatment { border-top: 3px solid var(--color-treatment); }
+.layer-card--risk:hover { border-color: color-mix(in oklab, var(--color-risk) 50%, var(--color-border)); }
+.layer-card--detection:hover { border-color: color-mix(in oklab, var(--color-detection) 50%, var(--color-border)); }
+.layer-card--treatment:hover { border-color: color-mix(in oklab, var(--color-treatment) 50%, var(--color-border)); }
 
 .layer-card__index {
   font-family: var(--font-mono);
@@ -142,9 +142,9 @@
   line-height: 1.05;
   margin-bottom: var(--space-2);
 }
-.layer-card--origin .layer-card__name { color: var(--color-origin); }
-.layer-card--behavior .layer-card__name { color: var(--color-behavior); }
-.layer-card--forecast .layer-card__name { color: var(--color-forecast); }
+.layer-card--risk .layer-card__name { color: var(--color-risk); }
+.layer-card--detection .layer-card__name { color: var(--color-detection); }
+.layer-card--treatment .layer-card__name { color: var(--color-treatment); }
 .layer-card__question {
   font-family: var(--font-display);
   font-style: italic;

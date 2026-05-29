@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Forecast — The Assimilation Layer · Cancer Ecology Center</title>
+  <meta name="description" content="A data-assimilating ecological digital twin that continuously re-estimates from sparse, irregular clinical observations. CEDT is the instrument." />
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300..700;1,8..60,300..700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" />
+  <link rel="stylesheet" href="assets/css/tokens.css" />
+  <link rel="stylesheet" href="assets/css/base.css" />
+  <link rel="stylesheet" href="assets/css/site.css" />
+</head>
+<body class="layer-treatment">
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a href="index.html" class="site-brand" aria-label="Cancer Ecology Center — home">
+        <svg class="site-brand__mark" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+          <rect x="4" y="4" width="56" height="56" rx="14" stroke="currentColor" stroke-width="2" />
+          <path d="M16 32 a16 16 0 0 1 32 0" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.85"/>
+          <path d="M20 32 a12 12 0 0 1 24 0" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.7"/>
+          <path d="M24 32 a8 8 0 0 1 16 0" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.55"/>
+          <circle cx="32" cy="32" r="1.6" fill="currentColor" />
+        </svg>
+        <span><span class="site-brand__title">Cancer Ecology Center</span><span class="site-brand__sub">Johns Hopkins</span></span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+              <a href="overview.html">Overview</a>
+              <a href="risk.html">Risk</a>
+              <a href="detection.html">Detection</a>
+              <a href="treatment.html" aria-current="page">Treatment</a>
+              <a href="care.html">Care</a>
+              <a href="writing.html">Writing</a>
+              <a href="program.html">Program</a>
+              <a href="contact.html">Contact</a>
+              <button class="theme-toggle" data-theme-toggle type="button" aria-label="Toggle theme"></button>
+            </nav>
+      <button class="mobile-toggle" data-mobile-toggle type="button" aria-label="Open menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="page-hero__visual" aria-hidden="true">
+        <img src="assets/images/hero_treatment.png" alt="" style="width:100%; height:100%; object-fit:cover; object-position:center right; opacity:0.45;" />
+      </div>
+      <div class="container">
+        <p class="page-hero__eyebrow">Pillar 03 &middot; Treatment</p>
+        <h1>Treatment of lethal cancer.</h1>
+        <p class="page-hero__sub">How do we treat metastatic, lethal cancer when eradication has failed? Lethal cancer is a bounded ecosystem with latent interaction dynamics. The right therapeutic instrument is not maximal cytoreduction but <em>ecological steering</em> &mdash; adaptive therapy, evolution-aware dosing, and a continuously assimilating digital twin.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="two-col reveal">
+          <div class="two-col__heading">
+            <p class="section-eyebrow">&sect; 01</p>
+            <h2 class="section-title">Why &ldquo;town,&rdquo; not &ldquo;invasion.&rdquo;</h2>
+          </div>
+          <div class="prose">
+            <p>For thirty years, oncology has spoken in the language of war. Tumors <em>invade</em>. Metastases <em>colonize</em>. Treatment <em>eradicates</em>. The metaphor is so familiar it is invisible &mdash; and it describes the wrong biology.</p>
+            <p>Invasions, in ecology proper, are movements of a species into territory it does not yet occupy, expanding without bound. Tumors do not do this. Tumors are bounded. They occupy a defined territory, engineer that territory, recruit infrastructure, manage their edge, and crash episodically. A <strong>prairie dog town</strong> does all of these things. So does a tumor. The match is not loose; it is mechanistic. Where invasion models are off by one to two orders of magnitude in predicting tumor expansion, the bounded-town homology recovers the missing physics.</p>
+            <p>The price of the wrong metaphor is the wrong therapy. If you believe you are fighting an invader, you reach for total eradication and accept any collateral damage. If you understand you are managing a town &mdash; with niches, edge dynamics, resource limits, and internal regulation &mdash; you reach for the levers that actually control it. You reach for steering.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="background: color-mix(in oklab, var(--color-surface-offset) 50%, transparent); border-top: 1px solid var(--color-divider); border-bottom: 1px solid var(--color-divider);">
+      <div class="container">
+        <div class="framework__intro reveal" style="margin-bottom: var(--space-10);">
+          <div>
+            <p class="section-eyebrow">Tools in this pillar</p>
+            <h2 class="section-title">Prairie-Dogs simulator and the Cancer Ecology Digital Twin.</h2>
+          </div>
+        </div>
+        <div class="tool-grid">
+          <article class="tool-card">
+            <div class="tool-card__visual"><img src="assets/images/tool_prairie.png" alt="Prairie-Dogs G-function phase portrait" /></div>
+            <div class="tool-card__body">
+              <div class="tool-card__tagrow">
+                <span class="tag tag--live">Live</span>
+                <span class="tag tag--treatment">Treatment</span>
+              </div>
+              <h3 class="tool-card__name">Prairie-Dogs &middot; G-Function Tool</h3>
+              <p class="tool-card__desc">An interactive evolutionary game-theoretic model of tumor ecology. Adaptive dynamics of cell populations under therapy, resource competition, and engineered niches, anchored in the prairie-dog town homology. The G-Function Tool is the first publicly deployed instrument in the program.</p>
+              <div class="tool-card__meta">
+                <span><strong>Status:</strong> Live at tool.cancerecology.com</span>
+                <span><strong>Repository:</strong> github.com/kpienta-cloud/Prairie-Dogs</span>
+              </div>
+              <div class="tool-card__actions">
+                <a class="btn btn--primary" href="https://tool.cancerecology.com/" rel="external noopener" target="_blank">Launch G-Function Tool</a>
+                <a class="btn btn--ghost" href="https://github.com/kpienta-cloud" rel="external noopener" target="_blank">View on GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="tool-card">
+            <div class="tool-card__visual"><img src="assets/images/tool_cedt.png" alt="CEDT Bayesian forecast envelope" /></div>
+            <div class="tool-card__body">
+              <div class="tool-card__tagrow">
+                <span class="tag tag--dev">In development</span>
+                <span class="tag tag--treatment">Treatment</span>
+              </div>
+              <h3 class="tool-card__name">CEDT &mdash; Cancer Ecology Digital Twin</h3>
+              <p class="tool-card__desc">A patient-level state-space ecological forecast with Bayesian data assimilation. Sparse, irregular clinical observations are continuously fused into a structured ecological model to produce a personalized, updating trajectory with calibrated uncertainty &mdash; the instrument that turns the G-function into an individual dosing law.</p>
+              <div class="tool-card__meta">
+                <span><strong>Manuscript:</strong> CEDT v6.5, in submission</span>
+                <span><strong>Repository:</strong> github.com/kpienta-cloud/CEDT</span>
+              </div>
+              <div class="tool-card__actions">
+                <a class="btn btn--primary" href="https://github.com/kpienta-cloud" rel="external noopener">View on GitHub</a>
+                <a class="btn btn--ghost" href="writing.html">Read the white paper</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="two-col reveal">
+          <div class="two-col__heading">
+            <p class="section-eyebrow">&sect; 02</p>
+            <h2 class="section-title">The G-function.</h2>
+          </div>
+          <div class="prose">
+            <p>A G-function &mdash; for "fitness generating function" &mdash; describes how the success of an individual depends on its own strategy <em>and</em> on the population of strategies surrounding it. It is the right mathematical object for cancer because it captures what no static biomarker panel can: the fitness of a clone is contingent on every other clone in the tumor, on every drug in the system, and on the carrying capacity of the niche.</p>
+            <div class="formal">
+              <span class="formal__label">Fitness generating function (informal)</span>
+              <code class="formal__expr">G(u, u*, x) = &part;r(u, u*, x) / &part;u  |  u = u*</code>
+              <span style="color: var(--color-text-muted);">where <em>u</em> is a focal strategy, <em>u*</em> is the resident strategy vector, <em>x</em> is the ecological state, and <em>r</em> is per-capita growth. The G-function vanishes at evolutionarily stable strategies &mdash; the configurations toward which the system steers itself in the absence of intervention.</span>
+            </div>
+            <p>The prairie dog town is the homology, not a decoration: the same bounded, niche-engineering, predator-shaped dynamics that explain why a coterie holds its territory explain why a clonal population holds its niche. The G-function is how you write that down. And once you can write it down, you can design therapy that steers it.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="background: color-mix(in oklab, var(--color-surface-offset) 50%, transparent); border-top: 1px solid var(--color-divider); border-bottom: 1px solid var(--color-divider);">
+      <div class="container">
+        <div class="two-col reveal">
+          <div class="two-col__heading">
+            <p class="section-eyebrow">&sect; 03</p>
+            <h2 class="section-title">Adaptive therapy &mdash; steering, not eradication.</h2>
+          </div>
+          <div class="prose">
+            <p>If you believe the G-function is the right level of description, <strong>adaptive therapy</strong> is the natural consequence. Instead of escalating to maximum tolerated dose and racing for total kill, you dose to <em>maintain</em> a sensitive sub-population that competitively suppresses the resistant one. You are not eradicating; you are <strong>steering</strong>.</p>
+            <p>This is the explicit therapeutic commitment of the Center: <strong>steering, not eradication</strong>. In a bounded ecosystem with latent interactions, eradication is rarely available and almost always paid for in collateral damage. Steering is. Steering is what the G-function recommends, what adaptive therapy operationalizes, and what the digital twin individualizes.</p>
+            <p>The clinical demonstration that matters most so far is <strong>Zhang et al. 2017</strong> &mdash; adaptive dosing of abiraterone in metastatic castration-resistant prostate cancer roughly <em>doubled</em> time to progression compared to continuous standard dosing, with substantially less drug used. That result is not exotic. It is what the G-function predicts. The remaining work is to generalize: which tumor types, which drug combinations, which observables signal that the resistant population is being suppressed. The Prairie-Dogs simulator is built to answer those questions, and CEDT is built to apply them to the specific patient.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="two-col reveal">
+          <div class="two-col__heading">
+            <p class="section-eyebrow">&sect; 04</p>
+            <h2 class="section-title">CEDT &mdash; the state-space architecture.</h2>
+          </div>
+          <div class="prose">
+            <p>CEDT represents the patient as a structured state vector that evolves through time. Each sub-state is mechanistically meaningful, separately observable, and individually updatable.</p>
+            <div class="formal">
+              <span class="formal__label">State vector</span>
+              <code class="formal__expr">X(t) = [ H, E, T, M, Q ]</code>
+              <span style="color: var(--color-text-muted);">
+                <strong>H</strong> &mdash; host metabolic and immune background;
+                <strong>E</strong> &mdash; exposome flux vector (from ExposoGraph, Risk pillar);
+                <strong>T</strong> &mdash; tumor ecosystem composition (clones, niches, edge state, dormant DTCs);
+                <strong>M</strong> &mdash; therapeutic milieu (drugs, doses, schedules);
+                <strong>Q</strong> &mdash; quality-of-life and functional state.
+              </span>
+            </div>
+            <p>The factorization matters. Decisions about therapy operate primarily on <strong>M</strong>; the Risk pillar feeds <strong>E</strong>; the G-function shapes <strong>T</strong>; <strong>H</strong> bounds what is tolerable; <strong>Q</strong> is the human floor. None of the five collapses cleanly into the others, so the twin must carry all of them.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="background: color-mix(in oklab, var(--color-surface-offset) 50%, transparent); border-top: 1px solid var(--color-divider); border-bottom: 1px solid var(--color-divider);">
+      <div class="container">
+        <div class="two-col reveal">
+          <div class="two-col__heading">
+            <p class="section-eyebrow">&sect; 05</p>
+            <h2 class="section-title">GLV core, Bayesian assimilation.</h2>
+          </div>
+          <div class="prose">
+            <p>The ecological core of the twin is a generalized Lotka&ndash;Volterra (GLV) system over the tumor sub-state <strong>T</strong>: clones interact through a latent interaction matrix, with growth rates conditioned on niches, drugs, and the host environment.</p>
+            <p>The GLV interaction matrix is not assumed; it is <em>estimated</em>. Each clinical encounter &mdash; imaging, lab, biopsy, patient-reported outcome &mdash; is treated as a noisy observation of the latent state. A Bayesian particle-filter assimilation step updates the joint posterior over states and parameters. The result is an honest distribution over plausible futures, not a single deterministic line.</p>
+            <p>This is the layer where the framework finally pays its bill at the bedside: a clinician can ask, on this date, with this drug schedule, what does my patient's trajectory look like &mdash; and the twin returns a distribution consistent with every observation made of <em>this</em> patient so far. That distribution is what steering looks like in practice.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="two-col reveal">
+          <div class="two-col__heading">
+            <p class="section-eyebrow">&sect; 06</p>
+            <h2 class="section-title">Endocycling cells &mdash; the keystone of recurrence.</h2>
+          </div>
+          <div class="prose">
+            <p>One of the defining contributions of the Pienta&ndash;Amend lab is the recognition that a small reservoir of <strong>endocycling cancer cells</strong> drives recurrence in ways that conventional cytotoxic therapy does not address. Endocycling cells exit the normal mitotic cycle and enter an endocycle &mdash; amplifying their DNA without dividing, becoming polyploid, sometimes returning to proliferation under permissive conditions. They are rare in number, disproportionate in influence, and a primary source of post-therapy resistance.</p>
+            <p>We read endocycling cells as the <strong>keystone species</strong> of the tumor town: pull them out and the engineered niche collapses; ignore them and the town reseeds itself after every round of treatment. Targeting endocycling biology is therefore not an afterthought to cytotoxic therapy; it is its own therapeutic axis, and one of the axes adaptive therapy explicitly tries to control.</p>
+            <p>This connects directly to the <strong>disseminated tumor cell (DTC)</strong> and <strong>dormancy</strong> biology covered in the <a href="detection.html">Detection</a> pillar. Endocycling, dormant, and disseminated states are overlapping descriptions of the same underlying cancer cell behavior: a small population, holding the future of the disease, waiting for conditions to permit return.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="background: color-mix(in oklab, var(--color-surface-offset) 50%, transparent); border-top: 1px solid var(--color-divider); border-bottom: 1px solid var(--color-divider);">
+      <div class="container">
+        <div class="two-col reveal">
+          <div class="two-col__heading">
+            <p class="section-eyebrow">&sect; 07</p>
+            <h2 class="section-title">Clinical translation &mdash; where steering reaches a patient.</h2>
+          </div>
+          <div class="prose">
+            <p>The Treatment pillar is not theoretical. It reaches patients today through a portfolio of clinical programs at the Brady Urological Institute:</p>
+            <ul>
+              <li><strong>Oligometastatic disease and TET trials.</strong> When metastatic disease is limited to a few sites, Total Eradication Treatment (TET) trials test whether the entire visible burden can be eliminated and durable control achieved &mdash; the curative end of the spectrum.</li>
+              <li><strong>Intermittent androgen deprivation and peripheral androgen blockade for recurrent prostate cancer.</strong> The intermittent dosing strategies developed in recurrent disease are the clinical embodiment of adaptive therapy: dose to control, not to maximum.</li>
+              <li><strong>Castrate-resistant prostate cancer (CRPC).</strong> The setting where evolutionary thinking matters most. Adaptive therapy with abiraterone (Zhang 2017) lives here. Combination strategies, evolution-aware sequencing, and twin-guided dosing are the next steps.</li>
+            </ul>
+            <p>Each is described in clinical detail on the <a href="care.html">Patient care &amp; clinic</a> page, with referral information for physicians and patients.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="two-col reveal">
+          <div class="two-col__heading">
+            <p class="section-eyebrow">&sect; 08</p>
+            <h2 class="section-title">Identifiability and falsifiability.</h2>
+          </div>
+          <div class="prose">
+            <p>A digital twin is a scientific object only if it makes predictions that could fail. We commit to three.</p>
+            <ol>
+              <li><strong>Exposure&ndash;tumor coupling.</strong> In matched-cohort patients, the exposome-derived <strong>E</strong> sub-state will predict tumor genomic signature distributions ahead of the cohort-average baseline (one-sided, pre-registered effect size).</li>
+              <li><strong>G-function suppression.</strong> Adaptive-dose protocols guided by the CEDT-estimated G-function will produce longer time-to-progression than maximum-tolerated-dose continuation in a head-to-head subset, by a pre-specified margin.</li>
+              <li><strong>Assimilation gain.</strong> CEDT's per-patient forecast error after three update cycles will be lower than a strong cohort-average baseline by a pre-specified margin under proper scoring rules.</li>
+            </ol>
+            <p>If any of these fail, the framework is wrong in a specific, locatable way. That is the point. We did not write the white paper to be unfalsifiable.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="background: color-mix(in oklab, var(--color-surface-offset) 50%, transparent); border-top: 1px solid var(--color-divider); border-bottom: 1px solid var(--color-divider);">
+      <div class="container">
+        <div class="two-col reveal">
+          <div class="two-col__heading">
+            <p class="section-eyebrow">Open questions</p>
+            <h2 class="section-title">What we are working on now.</h2>
+          </div>
+          <ol class="questions-list">
+            <li>Can we treat metastatic cancer as a steerable bounded ecosystem rather than an enemy to eradicate &mdash; and double or triple time-to-progression by doing so?</li>
+            <li>What is the minimum clinical observation density at which CEDT yields a useful posterior &mdash; every imaging cycle, every lab draw, or sparser?</li>
+            <li>How identifiable is the GLV interaction matrix from realistic clinical data, and where do priors do the heavy lifting?</li>
+            <li>Which tumor types have the cleanest sensitive/resistant subpopulation structure for adaptive therapy, and which require multi-drug control?</li>
+            <li>How do we identify and target <em>keystone</em> cancer cells &mdash; endocycling, dormant, DTC populations &mdash; whose removal collapses the engineered niche disproportionately?</li>
+            <li>What is the right user interface for a clinician to consume a probabilistic trajectory at the bedside without misreading it?</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="two-col reveal">
+          <div class="two-col__heading">
+            <p class="section-eyebrow">Selected publications</p>
+            <h2 class="section-title">Treatment-pillar literature.</h2>
+          </div>
+          <ul class="pub-list">
+            <li>
+              <div>
+                <span class="pub-list__title">Integrating evolutionary dynamics into treatment of metastatic castration-resistant prostate cancer</span>
+                <div class="pub-list__meta">Zhang et al. &middot; Nature Communications &middot; doubling of TTP under adaptive dosing</div>
+              </div>
+              <span class="pub-list__year">2017</span>
+            </li>
+            <li>
+              <div>
+                <span class="pub-list__title">Prairie-Dogs: tumors as bounded, edge-managed ecological communities</span>
+                <div class="pub-list__meta">Pienta et al. &middot; Perspective, in revision</div>
+              </div>
+              <span class="pub-list__year">2026</span>
+            </li>
+            <li>
+              <div>
+                <span class="pub-list__title">CEDT: a state-space ecological digital twin for patient-level cancer forecasting</span>
+                <div class="pub-list__meta">Pienta et al. &middot; v6.5, in submission</div>
+              </div>
+              <span class="pub-list__year">2026</span>
+            </li>
+            <li>
+              <div>
+                <span class="pub-list__title">Cancer as a bounded ecological community: a program for exposure-aware, ecologically grounded, twin-steered oncology</span>
+                <div class="pub-list__meta">Pienta &middot; Canonical theory white paper v1</div>
+              </div>
+              <span class="pub-list__year">2026</span>
+            </li>
+            <li>
+              <div>
+                <span class="pub-list__title">Why cancer is an ecological problem</span>
+                <div class="pub-list__meta">Lloyd et al. &middot; Nature Reviews Cancer</div>
+              </div>
+              <span class="pub-list__year">2014</span>
+            </li>
+          </ul>
+        </div>
+
+        <a class="cross-link" href="care.html">
+          <div>
+            <p class="cross-link__label">Where this connects</p>
+            <span class="cross-link__title">Patient care &mdash; oligometastatic, recurrent, and castrate-resistant programs are where steering reaches a person.</span>
+          </div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__inner">
+        <div class="site-footer__brand">
+          <a href="index.html" class="site-brand">
+            <svg class="site-brand__mark" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+              <rect x="4" y="4" width="56" height="56" rx="14" stroke="currentColor" stroke-width="2" />
+              <path d="M16 32 a16 16 0 0 1 32 0" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.85"/>
+              <path d="M20 32 a12 12 0 0 1 24 0" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.7"/>
+              <path d="M24 32 a8 8 0 0 1 16 0" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.55"/>
+              <circle cx="32" cy="32" r="1.6" fill="currentColor" />
+            </svg>
+            <span><span class="site-brand__title">Cancer Ecology Center</span><span class="site-brand__sub">Johns Hopkins</span></span>
+          </a>
+          <p>An eco-evolutionary research program working to predict, detect, and intercept lethal cancer. Co-directed by Kenneth J. Pienta and Sarah R. Amend at the Brady Urological Institute, Johns Hopkins University School of Medicine.</p>
+        </div>
+
+        <div>
+          <h4>Framework</h4>
+          <ul>
+            <li><a href="overview.html">Overview</a></li>
+            <li><a href="risk.html">Risk &mdash; Genes &amp; Exposures</a></li>
+            <li><a href="detection.html">Detection &mdash; of the new species</a></li>
+            <li><a href="treatment.html">Treatment &mdash; of lethal cancer</a></li>
+            <li><a href="tools.html">All tools</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Center</h4>
+          <ul>
+            <li><a href="program.html">The Center</a></li>
+            <li><a href="care.html">Patient care</a></li>
+            <li><a href="writing.html">Writing &amp; education</a></li>
+            <li><a href="program.html#consortium">Consortium</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Support &amp; Legacy</h4>
+          <ul>
+            <li><a href="donate.html">Donate</a></li>
+            <li><a href="legacy.html">Don Coffey legacy</a></li>
+            <li><a href="https://github.com/kpienta-cloud" rel="external noopener">GitHub · kpienta-cloud</a></li>
+            <li><a href="https://urology.jhu.edu/" rel="external noopener">Brady Urological Institute</a></li>
+            <li><a href="mailto:kpienta1@jhmi.edu">kpienta1@jhmi.edu</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="site-footer__legal container">
+        <span>© 2026 Cancer Ecology Center · Brady Urological Institute · Johns Hopkins University School of Medicine</span>
+        <span>Predict · Detect · Intercept</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/site.js"></script>
+</body>
+</html>

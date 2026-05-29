@@ -1,8 +1,27 @@
-# Cancer Ecology Center — Site Source
+# Cancer Ecology Center — Site Source (v3.3)
 
 Static-site source for the Cancer Ecology Center at the Johns Hopkins Brady Urological Institute, deployed via GitHub Pages.
 
 Pure HTML, CSS, and JavaScript — no build step, no backend, no dependencies.
+
+## Architecture
+
+v3.3 reframes the site around three clinical pillars — **Risk · Detection · Treatment** — with the eco-evolutionary framework positioned as the underlying methodology. Through-line: **Predict · Detect · Intercept**.
+
+Pages:
+
+- `index.html` — Home
+- `overview.html` — Framework overview
+- `risk.html` — Risk pillar (exposure, susceptibility, BGES cohort, ExposoGraph/GeoToxGraph)
+- `detection.html` — Detection pillar (IsoMCED, CTCs, ctDNA, PSMA, DTCs, dormancy)
+- `treatment.html` — Treatment pillar (Prairie-Dogs G-function, adaptive therapy, CEDT)
+- `care.html` — Clinical programs
+- `writing.html` — Editorial
+- `program.html` — The Center & consortium
+- `tools.html` — Instruments index
+- `donate.html` — Giving
+- `legacy.html` — History
+- `contact.html` — Contact
 
 ## Live site
 

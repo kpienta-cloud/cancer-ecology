@@ -27,12 +27,12 @@
   --color-primary-highlight: #cfe0dc;
 
   /* Layer hues (muted earth tones) */
-  --color-origin: #a04a26;        /* terra / rust */
-  --color-origin-soft: #ead7c8;
-  --color-behavior: #6c7a3e;      /* sage / olive */
-  --color-behavior-soft: #dee0c2;
-  --color-forecast: #46556a;      /* slate */
-  --color-forecast-soft: #d3d8df;
+  --color-risk: #a04a26;        /* terra / rust */
+  --color-risk-soft: #ead7c8;
+  --color-detection: #6c7a3e;      /* sage / olive */
+  --color-detection-soft: #dee0c2;
+  --color-treatment: #46556a;      /* slate */
+  --color-treatment-soft: #d3d8df;
 
   /* Radii */
   --radius-sm: 0.25rem;
@@ -108,12 +108,12 @@
   --color-primary-active: #b1dee2;
   --color-primary-highlight: #213a3c;
 
-  --color-origin: #d28a64;
-  --color-origin-soft: #3b2c22;
-  --color-behavior: #b3bd76;
-  --color-behavior-soft: #2f3324;
-  --color-forecast: #a5b4cb;
-  --color-forecast-soft: #262d39;
+  --color-risk: #d28a64;
+  --color-risk-soft: #3b2c22;
+  --color-detection: #b3bd76;
+  --color-detection-soft: #2f3324;
+  --color-treatment: #a5b4cb;
+  --color-treatment-soft: #262d39;
 
   --shadow-sm: 0 1px 2px rgba(0,0,0,0.4);
   --shadow-md: 0 6px 18px rgba(0,0,0,0.5);
@@ -138,11 +138,11 @@
     --color-primary-hover: #95d0d5;
     --color-primary-active: #b1dee2;
     --color-primary-highlight: #213a3c;
-    --color-origin: #d28a64;
-    --color-origin-soft: #3b2c22;
-    --color-behavior: #b3bd76;
-    --color-behavior-soft: #2f3324;
-    --color-forecast: #a5b4cb;
-    --color-forecast-soft: #262d39;
+    --color-risk: #d28a64;
+    --color-risk-soft: #3b2c22;
+    --color-detection: #b3bd76;
+    --color-detection-soft: #2f3324;
+    --color-treatment: #a5b4cb;
+    --color-treatment-soft: #262d39;
   }
 }
