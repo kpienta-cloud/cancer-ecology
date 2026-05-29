@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tools · Cancer Ecology Center</title>
+  <meta name="description" content="Six computational and analytical tools spanning the three layers of the cancer ecology framework: ExposoGraph, GeoToxGraph, Prairie-Dogs, G-Function Tool, CEDT, and IsoMCED." />
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300..700;1,8..60,300..700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" />
+  <link rel="stylesheet" href="assets/css/tokens.css" />
+  <link rel="stylesheet" href="assets/css/base.css" />
+  <link rel="stylesheet" href="assets/css/site.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a href="index.html" class="site-brand" aria-label="Cancer Ecology Center — home">
+        <svg class="site-brand__mark" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+          <rect x="4" y="4" width="56" height="56" rx="14" stroke="currentColor" stroke-width="2" />
+          <path d="M16 32 a16 16 0 0 1 32 0" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.85"/>
+          <path d="M20 32 a12 12 0 0 1 24 0" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.7"/>
+          <path d="M24 32 a8 8 0 0 1 16 0" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.55"/>
+          <circle cx="32" cy="32" r="1.6" fill="currentColor" />
+        </svg>
+        <span><span class="site-brand__title">Cancer Ecology Center</span><span class="site-brand__sub">Johns Hopkins</span></span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+              <a href="overview.html">Overview</a>
+              <a href="origin.html">Origin</a>
+              <a href="behavior.html">Behavior</a>
+              <a href="forecast.html">Forecast</a>
+              <a href="care.html">Care</a>
+              <a href="writing.html">Writing</a>
+              <a href="program.html">Program</a>
+              <a href="contact.html">Contact</a>
+              <button class="theme-toggle" data-theme-toggle type="button" aria-label="Toggle theme"></button>
+            </nav>
+      <button class="mobile-toggle" data-mobile-toggle type="button" aria-label="Open menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="page-hero__eyebrow">The instruments</p>
+        <h1>Six tools, three layers, one program.</h1>
+        <p class="page-hero__sub">Each tool sits inside a single layer of the framework, and each is mechanistically connected to the next. Together they are how the program tests itself. The G-Function Tool is live and publicly accessible; the others have active manuscripts and open repositories.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="tool-grid">
+          <article class="tool-card" id="exposograph">
+            <div class="tool-card__visual"><img src="assets/images/tool_exposograph.png" alt="ExposoGraph 2.0 network" /></div>
+            <div class="tool-card__body">
+              <div class="tool-card__tagrow">
+                <span class="tag tag--dev">In development</span>
+                <span class="tag tag--origin">Origin</span>
+              </div>
+              <h3 class="tool-card__name">ExposoGraph 2.0</h3>
+              <p class="tool-card__desc">A multi-carcinogen pathway flux engine. Tissue-specific bioactivation and detoxification networks (CYP450, UGT, GST, NAT, SULT families) with genotype modifiers. Returns a per-person, per-tissue cancer risk score that varies up to 47-fold across plausible genotype configurations.</p>
+              <div class="tool-card__meta">
+                <span><strong>Layer:</strong> Origin</span>
+                <span><strong>Manuscript:</strong> PLOS Computational Biology (under review)</span>
+                <span><strong>Repository:</strong> github.com/kpienta-cloud/Exposograph</span>
+              </div>
+              <div class="tool-card__actions">
+                <a class="btn btn--primary" href="https://github.com/kpienta-cloud" rel="external noopener">View on GitHub</a>
+                <a class="btn btn--ghost" href="origin.html">Read the layer brief</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="tool-card" id="geotoxgraph">
+            <div class="tool-card__visual"><img src="assets/images/tool_geotox.png" alt="GeoToxGraph evolutionary contrast" /></div>
+            <div class="tool-card__body">
+              <div class="tool-card__tagrow">
+                <span class="tag tag--dev">In development</span>
+                <span class="tag tag--origin">Origin</span>
+              </div>
+              <h3 class="tool-card__name">GeoToxGraph</h3>
+              <p class="tool-card__desc">An evolutionary contrast map of human vs. microbial detoxification. Quantifies pathway loss in the human lineage relative to extremophile bacteria — most notably <em>Geobacter</em> — and identifies the chemicals for which the loss is the cancer story.</p>
+              <div class="tool-card__meta">
+                <span><strong>Layer:</strong> Origin</span>
+                <span><strong>Manuscript:</strong> in revision</span>
+                <span><strong>Repository:</strong> github.com/kpienta-cloud/geobacter</span>
+              </div>
+              <div class="tool-card__actions">
+                <a class="btn btn--primary" href="https://github.com/kpienta-cloud" rel="external noopener">View on GitHub</a>
+                <a class="btn btn--ghost" href="origin.html">Read the layer brief</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="tool-card" id="prairie-dogs">
+            <div class="tool-card__visual"><img src="assets/images/tool_prairie.png" alt="Prairie-Dogs G-function dynamics" /></div>
+            <div class="tool-card__body">
+              <div class="tool-card__tagrow">
+                <span class="tag tag--dev">In development</span>
+                <span class="tag tag--behavior">Behavior</span>
+              </div>
+              <h3 class="tool-card__name">Prairie-Dogs G-function Simulator</h3>
+              <p class="tool-card__desc">An interactive evolutionary game-theoretic model of tumor ecology. Adaptive dynamics of cell populations under therapy, resource competition, and engineered niches — anchored in the prairie-dog town homology and producing the G-function (fitness generating function) for the system.</p>
+              <div class="tool-card__meta">
+                <span><strong>Layer:</strong> Behavior</span>
+                <span><strong>Manuscript:</strong> perspective in revision</span>
+                <span><strong>Repository:</strong> github.com/kpienta-cloud/Prairie-Dogs</span>
+              </div>
+              <div class="tool-card__actions">
+                <a class="btn btn--primary" href="https://github.com/kpienta-cloud" rel="external noopener">View on GitHub</a>
+                <a class="btn btn--ghost" href="behavior.html">Read the layer brief</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="tool-card" id="g-function">
+            <div class="tool-card__visual"><img src="assets/images/tool_prairie.png" alt="G-Function Tool dynamics" /></div>
+            <div class="tool-card__body">
+              <div class="tool-card__tagrow">
+                <span class="tag tag--live">Live</span>
+                <span class="tag tag--behavior">Behavior</span>
+              </div>
+              <h3 class="tool-card__name">G-Function Tool</h3>
+              <p class="tool-card__desc">An interactive web-based evolutionary game theory simulator for cancer adaptive dynamics. The first instrument in the Center to be publicly deployed. Maintained by the Cancer Adaptive Landscapes team — a cross-institutional collaboration spanning Hopkins, Princeton, Moffitt, and Lund.</p>
+              <div class="tool-card__meta">
+                <span><strong>Layer:</strong> Behavior</span>
+                <span><strong>Status:</strong> Live at tool.cancerecology.com</span>
+                <span><strong>Team:</strong> Cancer Adaptive Landscapes</span>
+              </div>
+              <div class="tool-card__actions">
+                <a class="btn btn--primary" href="https://tool.cancerecology.com/" rel="external noopener" target="_blank">Launch the tool</a>
+                <a class="btn btn--ghost" href="#landscapes-team">Meet the team</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="tool-card" id="cedt">
+            <div class="tool-card__visual"><img src="assets/images/tool_cedt.png" alt="CEDT digital twin Bayesian forecast" /></div>
+            <div class="tool-card__body">
+              <div class="tool-card__tagrow">
+                <span class="tag tag--dev">In development</span>
+                <span class="tag tag--forecast">Forecast</span>
+              </div>
+              <h3 class="tool-card__name">CEDT — Cancer Ecology Digital Twin</h3>
+              <p class="tool-card__desc">A patient-level state-space ecological forecast with Bayesian data assimilation. State vector X(t) = [H, E, T, M, Q] couples host, exposome, tumor, therapy, and quality-of-life; a GLV core describes clone interactions; sparse clinical observations continuously update the posterior.</p>
+              <div class="tool-card__meta">
+                <span><strong>Layer:</strong> Forecast</span>
+                <span><strong>Manuscript:</strong> CEDT v6.5, in submission</span>
+                <span><strong>Repository:</strong> github.com/kpienta-cloud/CEDT</span>
+              </div>
+              <div class="tool-card__actions">
+                <a class="btn btn--primary" href="https://github.com/kpienta-cloud" rel="external noopener">View on GitHub</a>
+                <a class="btn btn--ghost" href="forecast.html">Read the layer brief</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="tool-card" id="isomced">
+            <div class="tool-card__visual"><img src="assets/images/tool_isomced.png" alt="IsoMCED isotope spectrum signature" /></div>
+            <div class="tool-card__body">
+              <div class="tool-card__tagrow">
+                <span class="tag tag--dev">In development</span>
+                <span class="tag tag--origin">Origin</span>
+              </div>
+              <h3 class="tool-card__name">IsoMCED — Isotope Multi-Cancer Early Detection</h3>
+              <p class="tool-card__desc">A hair-keratin stable-isotope fingerprint — δ¹³C, δ¹⁵N, δ³⁴S — as a non-invasive multi-cancer early-detection screen. A 5 cm strand carries a six-month metabolic record; under twenty dollars per sample at population scale.</p>
+              <div class="tool-card__meta">
+                <span><strong>Layer:</strong> Origin (deployable diagnostic)</span>
+                <span><strong>Status:</strong> pilot funded · Biswas Fast Grant</span>
+                <span><strong>Partner:</strong> Kreftect, Inc. (CAP/CLIA pathway prep)</span>
+              </div>
+              <div class="tool-card__actions">
+                <a class="btn btn--ghost" href="writing.html">Read the white paper</a>
+                <a class="btn btn--ghost" href="origin.html">Read the layer brief</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="landscapes-team" style="background: color-mix(in oklab, var(--color-surface-offset) 50%, transparent); border-top: 1px solid var(--color-divider); border-bottom: 1px solid var(--color-divider);">
+      <div class="container">
+        <div class="framework__intro reveal" style="margin-bottom: var(--space-10);">
+          <div>
+            <p class="section-eyebrow">Cancer Adaptive Landscapes</p>
+            <h2 class="section-title">The cross-institutional team behind the G-Function Tool.</h2>
+          </div>
+          <p class="section-lede">A seven-investigator collaboration applying evolutionary game theory to cancer adaptive dynamics. The G-Function Tool is the team's first public instrument; further work spans landscape modeling, dormancy theory, and clinical translation.</p>
+        </div>
+
+        <ul class="roster reveal">
+          <li>
+            <span class="roster__name">Sarah Amend</span>
+            <span class="roster__role">Cancer Biologist · Johns Hopkins</span>
+          </li>
+          <li>
+            <span class="roster__name">Bob Austin</span>
+            <span class="roster__role">Physicist · Princeton</span>
+          </li>
+          <li>
+            <span class="roster__name">Joel Brown</span>
+            <span class="roster__role">Evolutionary Biologist · Moffitt</span>
+          </li>
+          <li>
+            <span class="roster__name">Anuraag Bukkuri</span>
+            <span class="roster__role">Mathematical Oncologist · Moffitt</span>
+          </li>
+          <li>
+            <span class="roster__name">Emma Hammarlund</span>
+            <span class="roster__role">Geobiologist · Lund</span>
+          </li>
+          <li>
+            <span class="roster__name">Ken Pienta</span>
+            <span class="roster__role">Medical Oncologist · Johns Hopkins</span>
+          </li>
+          <li>
+            <span class="roster__name">Bob Gatenby</span>
+            <span class="roster__role">Mathematical Oncologist · Moffitt</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__inner">
+        <div class="site-footer__brand">
+          <a href="index.html" class="site-brand">
+            <svg class="site-brand__mark" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+              <rect x="4" y="4" width="56" height="56" rx="14" stroke="currentColor" stroke-width="2" />
+              <path d="M16 32 a16 16 0 0 1 32 0" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.85"/>
+              <path d="M20 32 a12 12 0 0 1 24 0" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.7"/>
+              <path d="M24 32 a8 8 0 0 1 16 0" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.55"/>
+              <circle cx="32" cy="32" r="1.6" fill="currentColor" />
+            </svg>
+            <span><span class="site-brand__title">Cancer Ecology Center</span><span class="site-brand__sub">Johns Hopkins</span></span>
+          </a>
+          <p>An eco-evolutionary research program reading cancer across exposure, ecosystem, and forecast. Co-directed by Kenneth J. Pienta and Sarah R. Amend at the Brady Urological Institute, Johns Hopkins University School of Medicine.</p>
+        </div>
+
+        <div>
+          <h4>Framework</h4>
+          <ul>
+            <li><a href="overview.html">Overview</a></li>
+            <li><a href="origin.html">Origin — Exposure</a></li>
+            <li><a href="behavior.html">Behavior — Ecosystem</a></li>
+            <li><a href="forecast.html">Forecast — Assimilation</a></li>
+            <li><a href="tools.html">All tools</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Center</h4>
+          <ul>
+            <li><a href="program.html">The Center</a></li>
+            <li><a href="care.html">Patient care</a></li>
+            <li><a href="writing.html">Writing &amp; education</a></li>
+            <li><a href="program.html#consortium">Consortium</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Support &amp; Legacy</h4>
+          <ul>
+            <li><a href="donate.html">Donate</a></li>
+            <li><a href="legacy.html">Don Coffey legacy</a></li>
+            <li><a href="https://github.com/kpienta-cloud" rel="external noopener">GitHub · kpienta-cloud</a></li>
+            <li><a href="https://urology.jhu.edu/" rel="external noopener">Brady Urological Institute</a></li>
+            <li><a href="mailto:kpienta1@jhmi.edu">kpienta1@jhmi.edu</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="site-footer__legal container">
+        <span>© 2026 Cancer Ecology Center · Brady Urological Institute · Johns Hopkins University School of Medicine</span>
+        <span>Steering, not eradication</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/site.js"></script>
+</body>
+</html>

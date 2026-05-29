@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Behavior — The Ecosystem Layer · Cancer Ecology Center</title>
+  <meta name="description" content="The tumor is a town — bounded, habitat-engineering, edge-managed. Prairie-Dogs G-function models cancer behavior with evolutionary game theory." />
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300..700;1,8..60,300..700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" />
+  <link rel="stylesheet" href="assets/css/tokens.css" />
+  <link rel="stylesheet" href="assets/css/base.css" />
+  <link rel="stylesheet" href="assets/css/site.css" />
+</head>
+<body class="layer-behavior">
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a href="index.html" class="site-brand" aria-label="Cancer Ecology Center — home">
+        <svg class="site-brand__mark" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+          <rect x="4" y="4" width="56" height="56" rx="14" stroke="currentColor" stroke-width="2" />
+          <path d="M16 32 a16 16 0 0 1 32 0" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.85"/>
+          <path d="M20 32 a12 12 0 0 1 24 0" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.7"/>
+          <path d="M24 32 a8 8 0 0 1 16 0" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.55"/>
+          <circle cx="32" cy="32" r="1.6" fill="currentColor" />
+        </svg>
+        <span><span class="site-brand__title">Cancer Ecology Center</span><span class="site-brand__sub">Johns Hopkins</span></span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+              <a href="overview.html">Overview</a>
+              <a href="origin.html">Origin</a>
+              <a href="behavior.html" aria-current="page">Behavior</a>
+              <a href="forecast.html">Forecast</a>
+              <a href="care.html">Care</a>
+              <a href="writing.html">Writing</a>
+              <a href="program.html">Program</a>
+              <a href="contact.html">Contact</a>
+              <button class="theme-toggle" data-theme-toggle type="button" aria-label="Toggle theme"></button>
+            </nav>
+      <button class="mobile-toggle" data-mobile-toggle type="button" aria-label="Open menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="page-hero__visual" aria-hidden="true">
+        <img src="assets/images/hero_behavior.png" alt="" style="width:100%; height:100%; object-fit:cover; object-position:center right; opacity:0.45;" />
+      </div>
+      <div class="container">
+        <p class="page-hero__eyebrow">Layer 02 · Behavior</p>
+        <h1>The Ecosystem Layer.</h1>
+        <p class="page-hero__sub">Once autonomous, the cancer cell becomes a new species and the tumor becomes a town — bounded, habitat-engineering, resource-depleting, edge-managed. Invasion analogies are off by one to two orders of magnitude. Prairie dog towns are not.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="two-col reveal">
+          <div class="two-col__heading">
+            <p class="section-eyebrow">§ 01</p>
+            <h2 class="section-title">Why "town," not "invasion."</h2>
+          </div>
+          <div class="prose">
+            <p>For thirty years, oncology has spoken in the language of war. Tumors <em>invade</em>. Metastases <em>colonize</em>. Treatment <em>eradicates</em>. The metaphor is so familiar it is invisible — and it describes the wrong biology.</p>
+            <p>Invasions, in ecology proper, are movements of a species into territory it does not yet occupy, expanding without bound. Tumors do not do this. Tumors are bounded. They occupy a defined territory, engineer that territory, recruit infrastructure, manage their edge, and crash episodically. A prairie dog town does all of these things. So does a tumor. The match is not loose; it is mechanistic.</p>
+            <p>The price of the wrong metaphor is the wrong therapy. If you believe you are fighting an invader, you reach for total eradication and accept any collateral damage. If you understand you are managing a town, you reach for the levers that control it — resource limits, edge dynamics, predator pressure, and the carrying capacity of the niche. You reach for steering.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="background: color-mix(in oklab, var(--color-surface-offset) 50%, transparent); border-top: 1px solid var(--color-divider); border-bottom: 1px solid var(--color-divider);">
+      <div class="container">
+        <div class="framework__intro reveal" style="margin-bottom: var(--space-10);">
+          <div>
+            <p class="section-eyebrow">Tools in this layer</p>
+            <h2 class="section-title">The Prairie-Dogs simulator.</h2>
+          </div>
+        </div>
+        <div class="tool-grid" style="grid-template-columns: 1fr;">
+          <article class="tool-card" style="grid-template-columns: 1fr; max-width: 720px;">
+            <div class="tool-card__visual" style="aspect-ratio: 16/9;"><img src="assets/images/tool_prairie.png" alt="Prairie-Dogs G-function phase portrait" /></div>
+            <div class="tool-card__body">
+              <div class="tool-card__tagrow">
+                <span class="tag tag--dev">In development</span>
+                <span class="tag tag--behavior">Behavior</span>
+              </div>
+              <h3 class="tool-card__name">Prairie-Dogs G-function Simulator</h3>
+              <p class="tool-card__desc">An interactive evolutionary game-theoretic model of tumor ecology. Adaptive dynamics of cell populations under therapy, resource competition, and engineered niches, anchored in the prairie-dog town homology.</p>
+              <div class="tool-card__meta">
+                <span><strong>Manuscript:</strong> perspective in revision</span>
+                <span><strong>Repository:</strong> github.com/kpienta-cloud/Prairie-Dogs</span>
+              </div>
+              <div class="tool-card__actions">
+                <a class="btn btn--primary" href="https://tool.cancerecology.com/" rel="external noopener" target="_blank">Launch G-Function Tool</a>
+                <a class="btn btn--ghost" href="https://github.com/kpienta-cloud" rel="external noopener" target="_blank">View on GitHub</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="two-col reveal">
+          <div class="two-col__heading">
+            <p class="section-eyebrow">§ 02</p>
+            <h2 class="section-title">The G-function.</h2>
+          </div>
+          <div class="prose">
+            <p>A G-function — for "fitness generating function" — describes how the success of an individual depends on its own strategy <em>and</em> on the population of strategies surrounding it. It is the right mathematical object for cancer because it captures what no static biomarker panel can: that the fitness of a clone is contingent on every other clone in the tumor, on every drug being used, and on the carrying capacity of the niche.</p>
+            <div class="formal">
+              <span class="formal__label">Fitness generating function (informal)</span>
+              <code class="formal__expr">G(u, u*, x) = ∂r(u, u*, x) / ∂u  |  u = u*</code>
+              <span style="color: var(--color-text-muted);">where <em>u</em> is a focal strategy, <em>u*</em> is the resident strategy vector, <em>x</em> is the ecological state, and <em>r</em> is per-capita growth. The G-function vanishes at evolutionarily stable strategies — the configurations toward which the system steers itself in the absence of intervention.</span>
+            </div>
+            <p>The prairie dog town is the homology, not a decoration: the same bounded, niche-engineering, predator-shaped dynamics that explain why a coterie holds its territory explain why a clonal population holds its niche. The G-function is how you write that down.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="background: color-mix(in oklab, var(--color-surface-offset) 50%, transparent); border-top: 1px solid var(--color-divider); border-bottom: 1px solid var(--color-divider);">
+      <div class="container">
+        <div class="two-col reveal">
+          <div class="two-col__heading">
+            <p class="section-eyebrow">§ 03</p>
+            <h2 class="section-title">Adaptive therapy.</h2>
+          </div>
+          <div class="prose">
+            <p>If you believe the G-function is the right level of description, adaptive therapy is the natural consequence. Instead of escalating to maximum tolerated dose and racing for total kill, you dose to <strong>maintain</strong> a sensitive sub-population that competitively suppresses the resistant one. You are not eradicating; you are steering.</p>
+            <p>The clinical demonstration that matters most so far is <strong>Zhang et al. 2017</strong> — adaptive dosing of abiraterone in metastatic castration-resistant prostate cancer roughly <em>doubled</em> time to progression compared to continuous standard dosing, with substantially less drug used. That result is not exotic. It is what the G-function predicts.</p>
+            <p>The remaining work is to generalize: which tumor types, which drug combinations, which biomarkers signal that the resistant population is being suppressed. The Prairie-Dogs simulator is built to answer those questions.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="two-col reveal">
+          <div class="two-col__heading">
+            <p class="section-eyebrow">Open questions</p>
+            <h2 class="section-title">What we are working on now.</h2>
+          </div>
+          <ol class="questions-list">
+            <li>Which tumor types have the cleanest sensitive/resistant subpopulation structure for adaptive therapy, and which require multi-drug control?</li>
+            <li>What is the right observable for "the town is stable" — circulating tumor cells, imaging volumetrics, ctDNA fraction, or some composite?</li>
+            <li>How do we identify <em>keystone clones</em> — populations whose removal collapses the engineered niche disproportionately?</li>
+            <li>Can the G-function be estimated, not assumed, from longitudinal patient data — and if so, with how much error?</li>
+            <li>What is the edge-management signature in human tumors that corresponds to the perimeter behavior of prairie dog towns?</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="two-col reveal">
+          <div class="two-col__heading">
+            <p class="section-eyebrow">Research programs in this layer</p>
+            <h2 class="section-title">Six threads of behavior we are pulling on.</h2>
+          </div>
+          <div class="prose">
+            <p><strong>Endocycling Cancer Cells.</strong> Some cancer cells exit the normal mitotic cycle and enter an <em>endocycle</em> — amplifying DNA without dividing, becoming polyploid, sometimes returning. We think these are the keystone cells of the tumor town: rare in number, disproportionate in influence, and a primary source of therapy resistance. Multiple lab members work on the mechanisms (Truskowski, Loycano, Wang, Vitta, Florou, Li).</p>
+            <p><strong>Disseminated Tumor Cells (DTCs).</strong> Solitary cancer cells found at distant sites years before clinical metastasis. DTCs are the bridge between primary disease and lethal recurrence. Understanding what governs their entry, their dormancy, and their reactivation is understanding why curable cancers become incurable.</p>
+            <p><strong>Cancer Cell Dormancy.</strong> Dormancy is not death. It is a reversible state in which a cell waits — sometimes for years — for permissive conditions. The behavior of dormant cells is the central unsolved problem in cancer recurrence and a major focus of the lab.</p>
+            <p><strong>Tumor Associated Macrophages (TAMs).</strong> Macrophages recruited by tumors are not passive bystanders; they become a substantial part of the tumor mass and are co-opted into supporting tumor survival, immune evasion, and metastatic seeding. They are infrastructure of the town, not visitors.</p>
+            <p><strong>The Cancer Diaspora.</strong> A unifying framing: cancer cells leaving the primary tumor are not a wave of invaders but a diaspora — small populations dispersing to new niches, adapting to local conditions, sometimes flourishing, sometimes dormant for decades. The diaspora framing predicts behaviors that the invasion framing does not.</p>
+            <p><strong>Why Is Cancer Lethal?</strong> Metastases themselves rarely cause death directly. Most patients die from the systemic, ecosystem-wide collapse that metastatic cancer induces — cachexia, immune exhaustion, organ dysfunction. The lethality question is its own program because the answer determines what we should be measuring and what we should be treating.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="background: color-mix(in oklab, var(--color-surface-offset) 50%, transparent); border-top: 1px solid var(--color-divider); border-bottom: 1px solid var(--color-divider);">
+      <div class="container">
+        <div class="two-col reveal">
+          <div class="two-col__heading">
+            <p class="section-eyebrow">Selected publications</p>
+            <h2 class="section-title">Behavior-layer literature.</h2>
+          </div>
+          <ul class="pub-list">
+            <li>
+              <div>
+                <span class="pub-list__title">Prairie-Dogs: tumors as bounded, edge-managed ecological communities</span>
+                <div class="pub-list__meta">Pienta et al. · Perspective, in revision</div>
+              </div>
+              <span class="pub-list__year">2026</span>
+            </li>
+            <li>
+              <div>
+                <span class="pub-list__title">Cancer cells as a new species: implications for evolutionary therapy</span>
+                <div class="pub-list__meta">Pienta et al. · Cancer Cell</div>
+              </div>
+              <span class="pub-list__year">2020</span>
+            </li>
+            <li>
+              <div>
+                <span class="pub-list__title">Integrating evolutionary dynamics into treatment of metastatic castrate-resistant prostate cancer</span>
+                <div class="pub-list__meta">Zhang et al. · Nature Communications</div>
+              </div>
+              <span class="pub-list__year">2017</span>
+            </li>
+            <li>
+              <div>
+                <span class="pub-list__title">Why cancer is an ecological problem</span>
+                <div class="pub-list__meta">Lloyd et al. · Nature Reviews Cancer</div>
+              </div>
+              <span class="pub-list__year">2014</span>
+            </li>
+          </ul>
+          <p style="margin-top: var(--space-6); font-size: 0.875rem; color: var(--color-text-muted);">
+            Full lists —
+            <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Pienta+K" rel="external noopener" target="_blank">Dr. Pienta on PubMed</a>
+            ·
+            <a href="https://pubmed.ncbi.nlm.nih.gov/?sort=date&amp;term=amend%20sr" rel="external noopener" target="_blank">Dr. Amend on PubMed</a>
+          </p>
+        </div>
+
+        <a class="cross-link" href="forecast.html">
+          <div>
+            <p class="cross-link__label">Where this connects</p>
+            <span class="cross-link__title">Forecast — the G-function becomes the control law in the digital twin.</span>
+          </div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__inner">
+        <div class="site-footer__brand">
+          <a href="index.html" class="site-brand">
+            <svg class="site-brand__mark" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+              <rect x="4" y="4" width="56" height="56" rx="14" stroke="currentColor" stroke-width="2" />
+              <path d="M16 32 a16 16 0 0 1 32 0" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.85"/>
+              <path d="M20 32 a12 12 0 0 1 24 0" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.7"/>
+              <path d="M24 32 a8 8 0 0 1 16 0" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.55"/>
+              <circle cx="32" cy="32" r="1.6" fill="currentColor" />
+            </svg>
+            <span><span class="site-brand__title">Cancer Ecology Center</span><span class="site-brand__sub">Johns Hopkins</span></span>
+          </a>
+          <p>An eco-evolutionary research program reading cancer across exposure, ecosystem, and forecast. Co-directed by Kenneth J. Pienta and Sarah R. Amend at the Brady Urological Institute, Johns Hopkins University School of Medicine.</p>
+        </div>
+
+        <div>
+          <h4>Framework</h4>
+          <ul>
+            <li><a href="overview.html">Overview</a></li>
+            <li><a href="origin.html">Origin — Exposure</a></li>
+            <li><a href="behavior.html">Behavior — Ecosystem</a></li>
+            <li><a href="forecast.html">Forecast — Assimilation</a></li>
+            <li><a href="tools.html">All tools</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Center</h4>
+          <ul>
+            <li><a href="program.html">The Center</a></li>
+            <li><a href="care.html">Patient care</a></li>
+            <li><a href="writing.html">Writing &amp; education</a></li>
+            <li><a href="program.html#consortium">Consortium</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Support &amp; Legacy</h4>
+          <ul>
+            <li><a href="donate.html">Donate</a></li>
+            <li><a href="legacy.html">Don Coffey legacy</a></li>
+            <li><a href="https://github.com/kpienta-cloud" rel="external noopener">GitHub · kpienta-cloud</a></li>
+            <li><a href="https://urology.jhu.edu/" rel="external noopener">Brady Urological Institute</a></li>
+            <li><a href="mailto:kpienta1@jhmi.edu">kpienta1@jhmi.edu</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="site-footer__legal container">
+        <span>© 2026 Cancer Ecology Center · Brady Urological Institute · Johns Hopkins University School of Medicine</span>
+        <span>Steering, not eradication</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/site.js"></script>
+</body>
+</html>

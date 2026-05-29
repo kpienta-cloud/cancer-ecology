@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Overview — The Eco-Evolutionary Framework · Cancer Ecology Center</title>
+  <meta name="description" content="An introduction to the eco-evolutionary framework of the Cancer Ecology Center — three coupled scales of one biology, with steering, not eradication, as the through-line." />
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300..700;1,8..60,300..700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" />
+  <link rel="stylesheet" href="assets/css/tokens.css" />
+  <link rel="stylesheet" href="assets/css/base.css" />
+  <link rel="stylesheet" href="assets/css/site.css" />
+  <link rel="stylesheet" href="assets/css/home.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a href="index.html" class="site-brand" aria-label="Cancer Ecology Center — home">
+        <svg class="site-brand__mark" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+          <rect x="4" y="4" width="56" height="56" rx="14" stroke="currentColor" stroke-width="2" />
+          <path d="M16 32 a16 16 0 0 1 32 0" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.85"/>
+          <path d="M20 32 a12 12 0 0 1 24 0" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.7"/>
+          <path d="M24 32 a8 8 0 0 1 16 0" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.55"/>
+          <circle cx="32" cy="32" r="1.6" fill="currentColor" />
+        </svg>
+        <span><span class="site-brand__title">Cancer Ecology Center</span><span class="site-brand__sub">Johns Hopkins</span></span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+              <a href="overview.html" aria-current="page">Overview</a>
+              <a href="origin.html">Origin</a>
+              <a href="behavior.html">Behavior</a>
+              <a href="forecast.html">Forecast</a>
+              <a href="care.html">Care</a>
+              <a href="writing.html">Writing</a>
+              <a href="program.html">Program</a>
+              <a href="contact.html">Contact</a>
+              <button class="theme-toggle" data-theme-toggle type="button" aria-label="Toggle theme"></button>
+            </nav>
+      <button class="mobile-toggle" data-mobile-toggle type="button" aria-label="Open menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="page-hero__visual" aria-hidden="true">
+        <img src="assets/images/hero_home.png" alt="" style="width:100%; height:100%; object-fit:cover; object-position:center right; opacity:0.45;" />
+      </div>
+      <div class="container">
+        <p class="page-hero__eyebrow">Overview</p>
+        <h1>The eco-evolutionary framework.</h1>
+        <p class="page-hero__sub">Cancer is a living, evolving community inside a human host. Understanding it &mdash; predicting it, steering it, treating it &mdash; requires reading it across three coupled scales at once.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="two-col reveal">
+          <div class="two-col__heading">
+            <p class="section-eyebrow">The premise</p>
+            <h2 class="section-title">An ecological community, not an invader.</h2>
+          </div>
+          <div class="prose">
+            <p>For most of modern oncology, cancer has been described as an invasion &mdash; cells breaching boundaries, colonizing tissues, spreading through the body. The language is so familiar it has become invisible. But measured against the biology, the invasion model is wrong by one to two orders of magnitude. Real tumors expand at a small fraction of their cells' intrinsic potential. They maintain sharp boundaries. They engineer their surroundings. They communicate risk across their edges. They depend on stable internal resources and can crash episodically under perturbation. These are not the properties of an invader. They are the properties of a community.</p>
+
+            <p>The Cancer Ecology Center reads cancer through the lens of ecology and evolution &mdash; the same lens used to study any community of organisms competing, cooperating, and adapting within a defined environment. The patient is the environment. The tumor is a community of cells, with their own interactions, fitness landscapes, and dynamics. The carcinogens, drugs, and immune cells that pass through it are forces in that ecology.</p>
+
+            <p>This reframing is not metaphorical. It carries a specific mathematical and clinical commitment. It says cancer can be modeled with the formal tools that ecology and evolutionary biology have spent a century developing &mdash; generalized Lotka-Volterra systems, evolutionary game theory, fitness-generating functions, Bayesian state-space models. And it says the right clinical goal is not to eradicate the community but to <em>steer</em> it: at the level of exposure, at the level of tumor ecology, and at the level of individualized forecast.</p>
+
+            <p>One sentence holds the program together: <strong>steering, not eradication</strong>, at every scale &mdash; reroute the exposure flux, suppress the resistant lineage with the sensitive one, assimilate sparse clinical data into a living model of the patient. The rest of the site is what that means in practice. The three coupled scales below are how we organize the work.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FRAMEWORK -->
+    <section id="framework" class="framework" style="background: color-mix(in oklab, var(--color-surface-offset) 50%, transparent); border-top: 1px solid var(--color-divider); border-bottom: 1px solid var(--color-divider);">
+      <div class="container">
+        <div class="framework__intro reveal">
+          <div>
+            <p class="section-eyebrow">The framework</p>
+            <h2 class="section-title">Three coupled scales of one biology.</h2>
+          </div>
+          <p class="section-lede">Cancer is read at three depths &mdash; what determines who gets it, how it actually behaves once it starts, and how it can be steered for an individual. Each scale has its own falsifiable claims and its own open questions. The work of the Center is the integration across them.</p>
+        </div>
+
+        <div class="layers" role="list">
+          <a class="layer-card layer-card--origin" data-layer="origin" href="origin.html" role="listitem">
+            <div class="layer-card__index">Layer 01 &middot; Origin</div>
+            <h3 class="layer-card__name">Exposure</h3>
+            <p class="layer-card__question">What determines who gets cancer in the first place?</p>
+            <p class="layer-card__summary">Cancer emerges from combinatorial flux through tissue-specific bioactivation networks, modulated by inherited variants, clonal mosaicism, and lifetime exposure history. Not one chemical. Not one gene.</p>
+            <div class="layer-card__footer">
+              <span class="layer-card__tool">Read the layer</span>
+              <span class="layer-card__arrow" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </span>
+            </div>
+          </a>
+
+          <a class="layer-card layer-card--behavior" data-layer="behavior" href="behavior.html" role="listitem">
+            <div class="layer-card__index">Layer 02 &middot; Behavior</div>
+            <h3 class="layer-card__name">Ecosystem</h3>
+            <p class="layer-card__question">Once it starts, how does it actually behave?</p>
+            <p class="layer-card__summary">The autonomous cancer cell is a new species. The tumor is a town &mdash; bounded, habitat-engineering, resource-depleting, edge-managed. Invasion analogies are off by one to two orders of magnitude.</p>
+            <div class="layer-card__footer">
+              <span class="layer-card__tool">Read the layer</span>
+              <span class="layer-card__arrow" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </span>
+            </div>
+          </a>
+
+          <a class="layer-card layer-card--forecast" data-layer="forecast" href="forecast.html" role="listitem">
+            <div class="layer-card__index">Layer 03 &middot; Forecast</div>
+            <h3 class="layer-card__name">Assimilation</h3>
+            <p class="layer-card__question">How do we predict and steer it for an individual?</p>
+            <p class="layer-card__summary">Tumors are ecosystems with latent interaction matrices. The correct clinical instrument is not a static biomarker panel but a data-assimilating ecological digital twin, continuously re-estimating from sparse clinical signal.</p>
+            <div class="layer-card__footer">
+              <span class="layer-card__tool">Read the layer</span>
+              <span class="layer-card__arrow" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </span>
+            </div>
+          </a>
+        </div>
+
+        <div class="through-line reveal" role="presentation">
+          <span class="through-line__rule"></span>
+          <span class="through-line__text">Steering, not eradication</span>
+          <span class="through-line__rule"></span>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="two-col reveal">
+          <div class="two-col__heading">
+            <p class="section-eyebrow">Where to go next</p>
+            <h2 class="section-title">Read into the layers, the clinic, or the writing.</h2>
+          </div>
+          <div class="prose">
+            <p>Each layer page reads as a short essay on the science: what we believe, why we believe it, what the formal model looks like, what is published, and what remains open. The clinical programs in <a href="care.html">Care</a> show how the framework reaches patients. The <a href="writing.html">Writing</a> page gathers the long-form white paper, the running essay series <em>Cancer Ecology Notes</em>, and the recorded seminars and free online courses. The <a href="program.html">Program</a> page introduces the people doing the work &mdash; the lab, the consortium, the trainees.</p>
+
+            <p>If you want one document that does all of this at length, the white paper <em>Cancer as an Ecological Community</em> is downloadable as a PDF from the <a href="writing.html">Writing</a> page.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__inner">
+        <div class="site-footer__brand">
+          <a href="index.html" class="site-brand">
+            <svg class="site-brand__mark" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+              <rect x="4" y="4" width="56" height="56" rx="14" stroke="currentColor" stroke-width="2" />
+              <path d="M16 32 a16 16 0 0 1 32 0" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.85"/>
+              <path d="M20 32 a12 12 0 0 1 24 0" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.7"/>
+              <path d="M24 32 a8 8 0 0 1 16 0" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.55"/>
+              <circle cx="32" cy="32" r="1.6" fill="currentColor" />
+            </svg>
+            <span><span class="site-brand__title">Cancer Ecology Center</span><span class="site-brand__sub">Johns Hopkins</span></span>
+          </a>
+          <p>An eco-evolutionary research program reading cancer across exposure, ecosystem, and forecast. Co-directed by Kenneth J. Pienta and Sarah R. Amend at the Brady Urological Institute, Johns Hopkins University School of Medicine.</p>
+        </div>
+
+        <div>
+          <h4>Framework</h4>
+          <ul>
+            <li><a href="overview.html">Overview</a></li>
+            <li><a href="origin.html">Origin &mdash; Exposure</a></li>
+            <li><a href="behavior.html">Behavior &mdash; Ecosystem</a></li>
+            <li><a href="forecast.html">Forecast &mdash; Assimilation</a></li>
+            <li><a href="tools.html">All tools</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Center</h4>
+          <ul>
+            <li><a href="program.html">The Center</a></li>
+            <li><a href="care.html">Patient care</a></li>
+            <li><a href="writing.html">Writing &amp; education</a></li>
+            <li><a href="program.html#consortium">Consortium</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Support &amp; Legacy</h4>
+          <ul>
+            <li><a href="donate.html">Donate</a></li>
+            <li><a href="legacy.html">Don Coffey legacy</a></li>
+            <li><a href="https://github.com/kpienta-cloud" rel="external noopener">GitHub &middot; kpienta-cloud</a></li>
+            <li><a href="https://urology.jhu.edu/" rel="external noopener">Brady Urological Institute</a></li>
+            <li><a href="mailto:kpienta1@jhmi.edu">kpienta1@jhmi.edu</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="site-footer__legal container">
+        <span>&copy; 2026 Cancer Ecology Center &middot; Brady Urological Institute &middot; Johns Hopkins University School of Medicine</span>
+        <span>Steering, not eradication</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/site.js"></script>
+</body>
+</html>
